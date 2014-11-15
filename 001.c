@@ -2,11 +2,12 @@
 
 int main(void)
 {
-    int i, sum = 0, index, x;
+    int i, sum, index, x;
     
     for(i = 1; i <= 1000; i++)
     {
-        index = i ;
+        index = i;
+        sum = 0;
         while(1)
         {
             x = index % 10;
@@ -16,7 +17,7 @@ int main(void)
         }
         if(i == sum)
         {
-            printf("i=%d\nsum=%d\n",i,sum);
+            printf("i = %d \nsum = %d\n",i,sum);
             break ;
         }
     
