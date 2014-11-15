@@ -17,8 +17,7 @@ int main(void)
         }
         if(i == sum)
         {
-            printf("i = %d \nsum = %d\n",i,sum);
-            break ;
+            printf("i = %d \nsum = %d\n", i, sum);
         }
     
     }
